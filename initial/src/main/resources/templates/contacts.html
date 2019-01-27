@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My contacts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <p>My telephone number:89494812357 </p>
+    <p th:text="'My email: ' + ${name} + '@mail.su'"/>
+    <P>Go to <a href="about">page about me</a> </P>
+    <P>Go to <a href="greeting">greeting</a> </P>
+    <P>Go to <a href="http://localhost:8080/">homepage</a> </P>
+</body>
+</html>
